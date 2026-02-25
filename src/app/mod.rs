@@ -1,5 +1,5 @@
 mod window;
 
 pub fn setup_app() {
-    println!("App Setup");
+    window::create_window();
 }
