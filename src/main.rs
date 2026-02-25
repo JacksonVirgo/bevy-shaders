@@ -1,3 +1,5 @@
+use bevy_shaders::app::setup_app;
+
 fn main() {
-    println!("Hello, world!");
+    setup_app();
 }
